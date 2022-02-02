@@ -1,0 +1,617 @@
+
+
+::selection{
+  background-color: rgba(240,99,71, .7);
+  color: white;
+}
+
+.myFullName{
+  background-image: linear-gradient(90deg, darkblue, DarkBlue);
+background-size: 0 2px;
+background-repeat: no-repeat;
+background-position: bottom left;
+transition: background-size 300ms ease;
+font-family: 'Poppins', sans-serif;
+
+  font-weight: 900;
+}
+
+.middle-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1500px,1fr));
+}
+
+
+
+
+
+.myFullName:hover{
+  background-size: 100% 2px;
+}
+
+
+
+
+.Major:hover{
+  background-size: 100% 2px;
+}
+
+.Major{
+  background-image: linear-gradient(90deg, darkred, darkred);
+background-size: 0 2px;
+background-repeat: no-repeat;
+background-position: bottom left;
+transition: background-size 300ms ease;
+font-family: 'Poppins', sans-serif;
+
+  font-weight: 900;
+}
+
+.University:hover{
+  background-size: 100% 2px;
+}
+
+.University{
+  background-image: linear-gradient(90deg, DarkGreen, DarkGreen);
+background-size: 0 2px;
+background-repeat: no-repeat;
+background-position: bottom left;
+transition: background-size 300ms ease;
+font-family: 'Poppins', sans-serif;
+
+  font-weight: 900;
+}
+
+.emph:hover{
+  background-size: 100% 2px;
+}
+
+.emph{
+  background-image: linear-gradient(90deg, #B8405E, #B8405E);
+background-size: 0 2px;
+background-repeat: no-repeat;
+background-position: bottom left;
+transition: background-size 300ms ease;
+font-family: 'Poppins', sans-serif;
+font-weight: 900;
+
+}
+
+
+.Banner .clouds{
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 30px;
+opacity: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.Banner .clouds img {
+  position: absolute;
+max-width: 100%;
+bottom:  0;
+
+  animation: animate 15s linear infinite;
+}
+
+
+
+@keyframes animate {
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  transition: background-size 300ms ease;
+  font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.Info {
+  bottom: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.myImage{
+position: relative;
+  height: 250px;
+ width: 250px;
+ background-color: white;
+ border-radius: 50%;
+left: 50px;
+ bottom: 80px;
+ float: left;
+
+
+}
+
+
+.my-info {
+  font-family: 'Poppins', sans-serif;
+margin: 0 0 200px 300px;
+line-height: 2;
+font-size: 16px;
+
+
+
+}
+
+.About_Me {
+
+font-family: 'Sacramento', cursive;
+  margin: 20px 0 0 0;
+  padding: 10px;
+  font-size: 100px;
+  color: #313552;
+  opacity: .7;
+
+}
+
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.skills {
+
+  border-radius: 75px;
+  position: relative;
+  height: 1000px;
+
+  padding:0;
+  margin: 100px 500px 100px 70px;
+
+
+
+  background: rgba(232, 232, 166, 0.7)
+}
+
+.skills_{
+  font-family: 'Sacramento', cursive;
+    margin: 20px 0 0 0;
+    padding: 10px;
+    font-size: 100px;
+    color: #323232;
+    opacity: .7;
+
+}
+
+.skills h4 {
+  float: right;
+width: 100%;
+margin: revert;
+
+font-weight: 900;
+font-size: 30px;
+font-family: 'Oswald', sans-serif;
+
+}
+
+.skills-des{
+  width: 82%;
+  margin: auto;
+  font-size: 23px;
+}
+
+.java{
+  height: 100px;
+  width: 100px;
+  float: left;
+
+}
+
+.web_languages{
+  height: 100px;
+      float: left;
+
+
+}
+
+
+.sql {
+  height: 100px;
+      width: 100px;
+      display: block;
+            float: left;
+}
+.assembly {
+  height: 100px;
+      width: 100px;
+      display: block;
+      float: left;
+}
+.bootstrap {
+  height: 100px;
+      width: 100px;
+      display: block;
+      float: left;
+      margin-left: 10px;
+}
+
+
+
+
+
+
+.profile {
+  border-radius: 75px;
+  position: relative;
+  height: 400px;
+  background-color: #F5EEDC;
+  padding:0;
+  margin: 50px 70px 100px 500px;
+  background: rgba(245, 238, 220, 0.6);
+
+
+
+
+
+}
+
+.languages {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+li {
+  list-style: none;
+}
+.lan {
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+  display: contents;
+  padding: 30px;
+}
+
+
+
+
+
+.skills h3{
+  font-weight: 900;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.expected {
+  float: left;
+  width: 100%;
+font-weight: 900;
+
+}
+.first_expected {
+  float: left;
+}
+
+.CONTACT{
+  border-radius: 75px;
+  position: relative;
+  height: 400px;
+
+  padding:0;
+  margin: 100px 500px 100px 70px;
+background: rgba(255, 188, 128,.4);
+
+}
+
+.CONTACT_{
+font-family: 'Sacramento', cursive;
+    margin: 20px 0 0 0;
+    padding: 10px;
+    font-size: 100px;
+    color: #0F0E0E;
+    opacity: .6;
+}
+
+
+
+.CONTACT td {
+padding: 10px;
+}
+.certificates{
+  border-radius: 75px;
+  position: relative;
+  height: 500px;
+  padding:0;
+  margin: 100px 70px 100px 500px;
+background: rgba(217, 215, 241,.4);
+
+}
+.twitter{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.certificates_{
+font-family: 'Sacramento', cursive;
+    margin: 20px 0 0 0;
+    padding: 10px;
+    font-size: 100px;
+    color: #0F0E0E;
+    opacity: .6;
+}
+
+.Social_media{
+  width: 100%;
+grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+
+padding: 30px;
+}
+
+body{
+
+  text-align: center;
+display: grid;
+  margin: 0;
+  padding: 0;
+
+background-color: #dbe9e6;
+
+}
+
+.yes {
+  display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+.Navigation {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+background-color: #FFFDA2;
+
+}
+nav {
+
+
+
+ width: max-content;
+    display: inline-block;
+  position:relative;
+  top: 12px;
+  left: 400px;
+  margin: 20px  auto 10px  auto;
+background-color: #FFFDA2;
+  transform: translate(-50%,-50%);
+
+
+}
+nav li {
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+display: inline-block;
+}
+
+nav li ul {
+  display: inline-flex;
+
+}
+nav li lu a {
+
+position: relative;
+padding: 0 70px 5px 20px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Source Code Pro", monospace;
+  font-size: 16px;
+
+
+
+}
+
+nav li lu a:hover {
+  color: #DD4A48;
+  transition: 300ms;
+
+
+
+}
+
+nav li lu a:after{
+    content: '';
+    position: absolute;
+    left:50%;
+    bottom: 0;
+
+
+    transform: translateY(0) scaleY(0) ;
+  transform-origin: 10% 50%;
+  width: 70%;
+  height: 2px;
+  background-color: #E60965;
+  transition: transform 250ms;
+}
+
+nav li lu a:hover::after{
+  transform: translateX(-60%) scaleX(1) ;
+}
+
+
+
+.top-container{
+  position: relative;
+  background-color: lightgoldenrodyellow;
+
+  height: 600px;
+
+border-radius: 75px;
+margin: 200px 50px 100px 100px;
+
+}
+
+
+.myName{
+  font-size: 70px;
+top: 100px;
+  text-align: left;
+  font-family: "Source Code Pro", monospace;
+  position: relative;
+
+
+width: max-content;
+}
+
+
+
+.myName::before, .myName::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right:0;
+  bottom:0;
+  left:0;
+
+
+}
+
+.myName::after {
+  width: 0.125em;
+  background: black;
+  animation :typewriter 6s steps(28) 1s forwards, blink 750ms steps(24) infinite;
+
+}
+
+.myName::before {
+  background: lightgoldenrodyellow;
+    animation :typewriter 6s steps(28) 1s forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left :100% ;
+
+  }
+
+}
+
+@keyframes cloud {
+
+  top {
+    transform: translateX();
+  }
+
+}
+
+@keyframes blink {
+  to {
+  background: transparent;
+  }
+
+}
+
+.Welocme {
+  font-size: 50px;
+top: 100px;
+  font-family: "Source Code Pro", monospace;
+    display: inline;
+    position: relative;
+
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fade 2s ease 7s forwards;
+}
+
+ @keyframes fade {
+   to{
+     opacity: 1;
+     transform: translateY(0);
+   }
+}
+
+.summer {
+  font-size: 50px;
+top: 100px;
+  font-family: "Source Code Pro", monospace;
+    display: inline;
+    position: relative;
+
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fade 7s ease 8s forwards;
+}
+
+ @keyframes fade {
+   to{
+     opacity: 1;
+     transform: translateY(0);
+   }
+}
+.beta {
+  font-size: 30px;
+top: 100px;
+  font-family: "Source Code Pro", monospace;
+    display: inline;
+    position: relative;
+
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fade 7s ease 9s forwards;
+}
+
+ @keyframes fade {
+   to{
+     opacity: 1;
+     transform: translateY(0);
+   }
+}
+.scroll_down {
+  font-size: 40px;
+top: 100px;
+  font-family: "Source Code Pro", monospace;
+    display: inline;
+    position: relative;
+
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fade 7s ease 10s forwards;
+}
+
+ @keyframes fade {
+   to{
+     opacity: 1;
+     transform: translateY(0);
+   }
+}
